@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "6b1c845a-8140-4e50-8ca3-5da8720ef2d9",
+		"name": "GO-task-manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24017773"
+	},
+	"item": [
+		{
+			"name": "get tasks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "post a task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"8b171ce0-6f7b-4c22-aa6f-8b110c19f83a\",\r\n  \"name\": \"A task\",\r\n  \"description\": \"A task that need to be executed at the timestamp specified\",\r\n  \"timestamp\": 1645275972000\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/task/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"task",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
