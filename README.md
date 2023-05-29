@@ -22,5 +22,5 @@ docker-compose up
 
 ## How to check:
 
-POST and GET tasks with postman collection: 
+POST and GET tasks using postman collection: 
 GO-task-manager.postman_collection
